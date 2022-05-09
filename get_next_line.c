@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
+// new comments
 char	*get_next_line(int fd)
 {
 	static char	*r;
