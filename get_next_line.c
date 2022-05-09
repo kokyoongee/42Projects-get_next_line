@@ -21,6 +21,7 @@ char	*get_next_line(int fd)
 	bytes = read(fd, buf, BUFFER_SIZE);
 	while (bytes > 0)
 	{
+		//hello
 		buf[bytes] = '\0';
 		put_buf(&r, buf);
 		if (find_endl(r) != -1)
